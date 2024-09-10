@@ -41,14 +41,16 @@ div{
     line-height: 2;
 }
 
+.red, .blue, .yellow, .green {
+    border: none; /* Reset all borders first */
+}
+
 .red{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px solid #ffffff;
     border-left: 5px solid #ffffff;
-    border-top: none;
-    border-right: none;
 }
 
 .blue{
@@ -57,8 +59,6 @@ div{
     margin-right: 50px;
     border-top: 2px solid #ffffff;
     border-right: 5px solid #ffffff;
-    border-bottom: none;
-    border-left: none;
 }
 
 .blue h2, .blue p{
@@ -71,8 +71,6 @@ div{
     margin-left: 50px;
     border-bottom: 2px solid #ffffff;
     border-left: 5px solid #ffffff;
-    border-top: none;
-    border-right: none;
 }
 
 .yellow p{
@@ -85,8 +83,6 @@ div{
     margin-right: 50px;
     border-top: 2px solid #ffffff;
     border-right: 5px solid #ffffff;
-    border-bottom: none;
-    border-left: none;
 }
 
 footer{
